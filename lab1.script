@@ -1,0 +1,208 @@
+命令稿啟動於 2018年03月14日 上午 01:49:24
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ con[K[K[Kg[Kgit config g[K--f[Kglon[Kbal user.name[K[K[K[Kemail""g"[1P"a"r"c"h"a"e"o"l"o"g"i"s"t"l"e"e"@"g"m"a"i"l"."c"o"m"
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ f[Kgit config --global user.name ""f"[1P"a"[1P"T"e"[1P"r"e"e"0"3"2"4"
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ configgconfig[C[C[Ciconfig[C[C[C[Ctconfig config[C[C[C[C[C[C -l
+user.email=archaeologistlee@gmail.com
+user.name=Tree0324
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.lab1.url=https://github.com/Tree0324/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git cloi[Kne https://github.com/Tree0324/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git init
+Reinitialized existing Git repository in /cygdrive/d/電機系/c++/program/.git/
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   a.exe[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.programming.swp[m
+	[31mlab1[m
+	[31mlab1.script[m
+	[31m"\350\207\252\346\210\221\347\267\264\347\277\222/"[m
+
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git add lab1.cpp
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git lab1.exe
+git: 'lab1.exe' is not a git command. See 'git --help'.
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git lab1[C lab1a lab1d lab1d lab1[C[C[C[C[C [K.exe
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git add REAF[KDME,MD
+fatal: pathspec 'README,MD' did not match any files
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git aff [K[K[Kdd READ.MD
+fatal: pathspec 'READ.MD' did not match any files
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ g[Kgit add README.MD
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ f[Kstatus
+bash: status：命令找不到
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ confi s[K[K[K[K[K[K[Kgit status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   a.exe[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.programming.swp[m
+	[31mlab1[m
+	[31mlab1.script[m
+	[31m"\350\207\252\346\210\221\347\267\264\347\277\222/"[m
+
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ ls
+a.exe  lab1  lab1.cpp  lab1.exe  lab1.script  README.MD  自我練習
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git reset a[Klab1.cpp
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git reset lab1.exe
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git rest[Ket l[KRe[KEADME.MD
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/cygdrive/d/電機系/c++/program/.git/COMMIT_EDITMSG" 14L, 321C[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#[7Cnew file:   a.exe
+#
+# Untracked files:
+#[7C.programming.swp
+#[7Clab1
+#[7Clab1.script
+#[7C"\350\207\252\346\210\221\347\267\264\347\277\222/"
+#
+[1m[34m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+[8;1H
+
+
+
+
+
+[?25l[m[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[KAborting commit due to empty commit message.
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ f[Kgit er[K[Kremote add tree[K[K[K[Klab1 https://github.com/Tree0324/lab1.git
+fatal: remote lab1 already exists.
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git remote add lab1 https://github.com/Tree0324/lab1.git
+fatal: remote lab1 already exists.
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git pusg[Kh lab1 master
+Username for 'https://github.com': 
+Password for 'https://Ttt@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tree0324/lab1.git/'
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ 
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ v[Kgit remote lab1 master
+error: Unknown subcommand: lab1
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git push lab1 https://github.com/Tree0324/lab1.git
+fatal: remote part of refspec is not a valid name in https://github.com/Tree0324/lab1.git
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git push lab1 master
+Username for 'https://github.com': 
+Password for 'https://Teee0324@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tree0324/lab1.git/'
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ giy[Kt push lab1 master
+Username for 'https://github.com': 
+Password for 'https://dxsvdfgfdsgdfggTree0324@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tree0324/lab1.git/'
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ Tree0324
+bash: Tree0324：命令找不到
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ git pud[Ksh lab1 master
+Username for 'https://github.com': 
+Password for 'https://tREE0324@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 52.26 KiB | 7.46 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/Tree0324/lab1.git
+ * [new branch]      master -> master
+]0;/cygdrive/d/電機系/c++/program
+[32muser@LAPTOP-282807LT [33m/cygdrive/d/電機系/c++/program[0m
+$ exit
+
+命令稿已於 2018年03月14日 上午 02:02:00
+ 完成
